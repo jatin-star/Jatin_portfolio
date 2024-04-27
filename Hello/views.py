@@ -23,7 +23,7 @@ def contact_view(request):
             'Contact Info',  # Subject
             f'Name: {name}\nEmail: {email}\nMessage: {message}',  # Message
             settings.EMAIL_HOST_USER,  # Sender email
-            ['himanshuprajapati@usf.edu'],  # Recipient email(s)
+            ['jatinskytek@gmail.com'],  # Recipient email(s)
             fail_silently=False,  # Set to True to ignore errors
         )
 
