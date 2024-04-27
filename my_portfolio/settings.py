@@ -115,6 +115,13 @@ STATIC_URL = '/static/'
 STATIC_ROOT = os.path.join(BASE_DIR, 'static')
 STATICFILES_STORAGE="whitenoise.storage.CompressedManifestStaticFilesStorage"
 
+# Configure email settings
+EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
+EMAIL_HOST = 'smtp.gmail.com'  # SMTP server address
+EMAIL_PORT = 587  # Port number
+EMAIL_USE_TLS = True  # Enable TLS
+EMAIL_HOST_USER = 'jatinskytek1@gmail.com'  # Your email address
+EMAIL_HOST_PASSWORD = 'oiuufvpdcdlralrz'  # Your email password
 
 # # Static files (CSS, JavaScript, Images)
 # # https://docs.djangoproject.com/en/4.1/howto/static-files/
