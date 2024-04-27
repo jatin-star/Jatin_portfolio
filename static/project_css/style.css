@@ -180,6 +180,10 @@ dt::after {
 
   .skill .list-inline{
     width:100%;
+    margin: 6% auto 6%;
+    text-align: center;
+    display: grid;
+    padding: 0px;
   }
 }
 
