@@ -191,7 +191,7 @@ dt::after {
   text-align: center;
 }
 
-.rightdata db a{
+.rightdata db a {
   display: inline-block;
   border-radius: 50%;
   padding: 0.5rem;
@@ -201,6 +201,12 @@ dt::after {
   border: 1px solid #695aa6;
   margin-top: 1.5rem !important;
   margin-right: 0.5rem;
+  transition: color 0.25s ease-in-out; /* Added transition property for color */
+}
+
+.rightdata db a:hover {
+  background: #695aa6;
+  color: white;
 }
 
 
@@ -218,12 +224,5 @@ dt::after {
   }
 }
 
-.rightdata db a{
-  padding: auto;
-  transition: padding 0.3s ease-in-out; 
-}
 
-.rightdata db a:hover{
-  padding: 7.5%;
-}
 
