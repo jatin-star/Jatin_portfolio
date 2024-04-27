@@ -11093,7 +11093,6 @@ h1, h2, h3, h4, h5, h6 {
 
 p {
   font-size: calc(13px + (15 - 13) * ((100vw - 300px) / (1300 - 300)));
-  font-weight: 100;
   opacity: 1;
   color: #111;
   letter-spacing: .6px;
@@ -12082,6 +12081,7 @@ pre .code {
       -ms-flex-positive: 1;
           flex-grow: 1;
   max-width: 550px;
+  font-weight: 100;
 }
 
 .header .header-content .header-title .up {
